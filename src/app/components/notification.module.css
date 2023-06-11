@@ -1,0 +1,57 @@
+.root {
+	border: 1px solid rgba(104, 118, 132, 0.1);
+	border-radius: 4px;
+	background: #ffffff;
+	padding: 18px 32px;
+	margin-bottom: 12px;
+	display: flex;
+	gap: 28px;
+}
+.icon {
+	margin-top: 6px;
+}
+.body {
+	display: flex;
+	flex-direction: column;
+}
+.avatars {
+	display: flex;
+	align-items: center;
+}
+.avatar {
+	position: relative;
+	left: -6px;
+}
+.avatar:first-child {
+	left: 0;
+}
+.title {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	margin: 8px 0;
+	color: #1b1f22;
+}
+.highlight {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 23px;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+.description {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: #687684;
+}
+.ctas {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 14px;
+}

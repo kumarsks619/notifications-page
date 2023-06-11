@@ -1,0 +1,16 @@
+.root {
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 13px;
+	padding: 6px 14px;
+	cursor: pointer;
+	border: none;
+}
+.primary {
+	background-color: #0648d7;
+	color: #ffffff;
+}
+.secondary {
+	background-color: rgba(104, 118, 132, 0.08);
+	color: #687684;
+}
